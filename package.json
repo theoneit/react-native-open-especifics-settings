@@ -1,6 +1,6 @@
 {
   "name": "react-native-open-especifics-settings",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Open specific Android settings for your native answer application",
   "main": "index.js",
   "scripts": {

@@ -37,7 +37,7 @@ public class RNOpenEspecificsSettingsModule extends ReactContextBaseJavaModule {
   }
 
   @ReactMethod
-  public void openGPS() {
+  public void openLocation() {
 
       Intent intent = new Intent(Settings.ACTION_LOCATION_SOURCE_SETTINGS);
       intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
@@ -46,7 +46,7 @@ public class RNOpenEspecificsSettingsModule extends ReactContextBaseJavaModule {
   }
 
   @ReactMethod
-  public void openWiFi() {
+  public void openNetwork() {
 
       Intent intent = new Intent(Settings.ACTION_WIRELESS_SETTINGS);
       intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);

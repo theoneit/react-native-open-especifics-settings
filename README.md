@@ -40,16 +40,16 @@ This module allows us to open device-specific settings. For example, if we want 
 import RNOpenEspecificsSettings from 'react-native-open-especifics-settings';
 
 // Opens the general settings window
-OpenAppSettings.open()
+RNOpenEspecificsSettings.open()
 
 // Opens the GPS setting window
-OpenAppSettings.openGPS()
+RNOpenEspecificsSettings.openLocation()
 
 // Opens the Wifi setting window
-OpenAppSettings.openWiFi()
+RNOpenEspecificsSettings.openNetwork()
 
 // Opens the security setting window
-OpenAppSettings.openSecurity()
+RNOpenEspecificsSettings.openSecurity()
 
 ```
 
