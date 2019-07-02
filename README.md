@@ -36,12 +36,25 @@ This module allows us to open device-specific settings. For example, if we want 
   	```
 
 ## Usage
+
+#### Parameter options
+
+- 'general'
+- 'location'
+- 'network'
+- 'security'
+- 'deviceinfo'
+- 'backup'
+- 'sound'
+- 'home'
+- 'date'
+- 'applications'
+
 ```javascript
 import RNOpenEspecificsSettings from 'react-native-open-especifics-settings';
 
-// Opens the especific settings window
-// Options: 'general', 'Location', 'network', 'security', for defalt '' call 'general'
-RNOpenEspecificsSettings.openSettings('Location')
+// Opens the especific settings window, example: 'location'.
+RNOpenEspecificsSettings.openSettings('location')
 
 ```
 
