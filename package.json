@@ -1,0 +1,33 @@
+{
+  "name": "react-native-open-especifics-settings",
+  "version": "1.0.0",
+  "description": "Open specific Android settings for your native answer application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "settings",
+    "android",
+    "open",
+    "ios",
+    "gps",
+    "wifi",
+    "baterry"
+  ],
+  "author": {
+    "name": "Flavio Teodosio",
+    "email": "flavioteodosiobr@gmail.com",
+    "homepage": "https://github.com/FlavioTeodosio/react-native-open-especifics-settings"
+  },
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FlavioTeodosio/react-native-open-especifics-settings.git"
+  },
+  "peerDependencies": {
+    "react-native": "^0.41.2",
+    "react-native-windows": "0.41.0-rc.1"
+  }
+}
