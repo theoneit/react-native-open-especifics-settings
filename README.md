@@ -50,6 +50,8 @@ This module allows us to open device-specific settings. For example, if we want 
 - 'date'
 - 'applications'
 
+Note: Due to major changes to the Apple device access policy, only access to the main menu is available.
+
 ```javascript
 import RNOpenEspecificsSettings from 'react-native-open-especifics-settings';
 

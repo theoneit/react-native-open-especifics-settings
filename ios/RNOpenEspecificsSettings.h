@@ -4,6 +4,7 @@
 #else
 #import <React/RCTBridgeModule.h>
 #endif
+#import <UIKit/UIKit.h>
 
 @interface RNOpenEspecificsSettings : NSObject <RCTBridgeModule>
 
