@@ -1,6 +1,6 @@
 {
   "name": "react-native-open-especifics-settings",
-  "version": "2.0.7",
+  "version": "2.3.0",
   "description": "Open specific Android settings for your native answer application",
   "main": "index.js",
   "scripts": {
@@ -29,5 +29,8 @@
   "peerDependencies": {
     "react-native": "^0.41.2",
     "react-native-windows": "0.41.0-rc.1"
+  },
+  "devDependencies": {
+    "jetifier": "^1.6.3"
   }
 }
